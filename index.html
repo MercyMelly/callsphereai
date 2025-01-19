@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CallSphereAI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="mainNav">
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.webp" alt="logo">
+            </a>
+            <div class="navLinks" id="navLinks">
+                <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#functionality">How it works</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#pricing">Choose Your Plan</a></li>
+                    <li><a href="#contactUs">Contact us</a></li>
+                </ul>
+            </div>
+            <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+        </nav>
+    </section>
+   
+    <div id="header">
+        <h1>AI-Powered Call Management for Smarter Businesses</h1>
+        <p>Streamline your customer communication, enhance service efficiency, and never miss a call with CallSphereAI.</p>
+    </div>
+
+    <div class="intro">
+        <h2 class="title">CallSphereAI</h2>
+        <p>CallSphereAI is a cutting-edge AI-powered call management solution designed for small businesses. Using Microsoft Azure AI services, we transform how businesses interact with customers, making communications faster, smarter, and more efficient.</p>
+    </div>
+
+    <section class="features">
+        <h2>Features</h2>
+        <div class="row">
+            <div class="featureCol">
+                <h3>Real-Time Call Transcription</h3>   
+                <p>Transform your phone conversations into valuable insights. Our AI-powered transcription service converts voice calls into accurate text in real-time, ensuring no information is missed.</p> 
+            </div>
+            <div class="featureCol">
+                <h3>Smart Call Routing</h3> 
+                <p>Route calls based on customer needs using advanced AI. Improve response times and reduce wait times for better customer satisfaction.</p>   
+            </div>
+            <div class="featureCol">
+                <h3>Automated Voice Responses</h3>
+                <p>Provide customers with immediate, automated responses for common inquiries, freeing up time for your team to focus on more complex tasks.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What our customers are saying</h2>
+        <div class="row">
+            <div class="customerCol">
+                <p class="testimonialText">CallSphereAI has completely transformed how we handle customer inquiries. The smart call routing and transcription feature saves us so much time, and our customers are happier with the faster responses.</p>
+                <p class="testimonialName">John Doe, Small Business Owner</p>
+            </div>
+            <div class="customerCol">
+                <p class="testimonialText">As a small business, we were overwhelmed with call traffic. CallSphereAI’s automated responses help us stay on top of things, and the analytics feature gives us valuable insights into customer preferences.</p>
+                <p class="testimonialName">Jane Smith, Startup Founder</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2>Choose Your Plan</h2>
+        <div class="row">
+            <div class="planList" >
+                <article class="plan">
+                    <h1 class="planTitle">STARTER PLAN</h1>
+                    <h2 class="planPrice">$0/month</h2>
+                    <h3>Perfect for small businesses just starting out.</h3>
+                    <ul class="planFeatures">
+                        <li class="planFeature">Basic call transcription</li>
+                        <li class="planFeature">Smart routing</li>
+                    </ul>
+                    <button class="button">CHOOSE PLAN</button>
+                </article>
+    
+                <article class="plan planHighlighted">
+                    <h1 class="planAnnotation">RECOMMENDED</h1>
+                    <h1 class="planTitle">PROFESSIONAL PLAN</h1>
+                    <h2 class="planPrice">$49/month</h2>
+                    <h3>For growing businesses with more call traffic.</h3>
+                    <ul class="planFeatures">
+                        <li class="planFeature">Advanced analytics</li>
+                        <li class="planFeature">Automated voice responses</li>
+                    </ul>
+                    <button class="button">CHOOSE PLAN</button>
+                </article>
+    
+                <article class="plan">
+                    <h1 class="planTitle">ENTERPRISE PLAN</h1>
+                    <h2 class="planPrice">$99/month</h2>
+                    <h3>For large businesses or those with complex needs.</h3>
+                    <ul class="planFeatures">
+                        <li class="planFeature">Custom integrations</li>
+                        <li class="planFeature">24/7 support</li>
+                    </ul>
+                    <button class="button">CHOOSE PLAN</button>
+                </article>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <section class="cta">
+        <h1>Ready To Revolutionize Your Call Management?</h1>
+        <a href="#" class="ctaButton">Request A Demo</a>
+    </section>
+
+    <section id="contactUs">
+        <h2>Get In Touch With Us</h2>
+        <div class="contactInfo">
+            <div class="infoBox">
+                <h4>Email Address</h4>
+                <p>contact@callsphereai.com</p>
+            </div>
+            <div class="infoBox">
+                <h4>Phone Number</h4>
+                <p>+254 722640651</p>
+            </div>
+        </div>
+        <form>
+            <div class="formGroup">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#functionality">How it works</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#pricing">Choose Your Plan</a></li>
+            <li><a href="#contactUs">Contact us</a></li>
+        </ul>
+        <p>© 2025 CallSphereAI. All rights reserved.</p>
+    </footer>
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right='0'
+        }
+        function hideMwnu(){
+            navLinks.style.right='-200px'
+        }
+    </script>
+</body>
+</html>
